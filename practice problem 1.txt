@@ -1,0 +1,107 @@
+
+
+ Question 1:
+Given the following list structure:
+data = [10, [2.5, "apple"], (3, 4)]
+What will be the output of data[1][1]?
+ A: 2.5  
+ B: "apple"  
+ C: 10  
+ D: Error  
+
+ Question 2:
+Given the following list structure:
+items = [(1, 2, 3), ["banana", "kiwi"], 7.5]
+What will be the output of items[0][2]?
+ A: 1  
+ B: 2  
+ C: 3  
+ D: Error  
+
+ Question 3:
+Given the following list structure:
+mixed = [[1, 2], (3.5, "grape"), [4, 5, 6]]
+What will be the output of mixed[1][0]?
+ A: 1  
+ B: 3.5  
+ C: 4  
+ D: Error  
+
+ Question 4:
+Given the following list structure:
+elements = [100, (200, 300), ["a", "b", "c"]]
+What will be the output of elements[2][1]?
+ A: "a"  
+ B: "b"  
+ C: "c"  
+ D: Error  
+
+ Question 5:
+Given the following list structure:
+data = [[10, 20], (30, 40, 50)]
+What will be the output of data[0][0]?
+ A: 10  
+ B: 20  
+ C: 30  
+ D: Error  
+
+ Question 6:
+Given the following list structure:
+values = [(1.5, 2.5), [3, 4], 5]
+What will be the output of values[0][1]?
+ A: 1.5  
+ B: 2.5  
+ C: 3  
+ D: Error  
+
+ Question 7:
+Given the following list structure:
+numbers = [[5, 10], (15, 20)]
+What will be the output of numbers[1][1]?
+ A: 5  
+ B: 10  
+ C: 20  
+ D: Error  
+
+ Question 8:
+Given the following list structure:
+shapes = ["circle", (5, 10), [15, 20, 25]]
+What will be the output of shapes[2][0]?
+ A: "circle"  
+ B: 5  
+ C: 15  
+ D: Error  
+
+ Question 9:
+Given the following list structure:
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+What will be the output of matrix[1][2]?
+ A: 4  
+ B: 5  
+ C: 6  
+ D: Error  
+
+Question 10:
+Given the following code:
+
+data = [(1, 2, 3), [4, 5, 6]]
+data[0][1] = 10
+
+What will be the result of this code?
+ A: (1, 10, 3)
+ B: [4, 5, 6]
+ C: Error: 'tuple' object does not support item assignment
+ D: No output
+
+Question 11:
+Given the following code:
+python
+data = [[1, 2], (3.5, 4.5)]
+data[1][0] = 7.5
+
+What will be the result of this code?
+ A: [1, 2], [7.5, 4.5]
+ B: [[1, 2], (7.5, 4.5)]
+ C: Error: 'tuple' object does not support item assignment
+ D: (7.5, 4.5)
+
