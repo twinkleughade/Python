@@ -17,7 +17,7 @@ d=msg.isupper()  #it gives boolean output  and it gives all upper(capital letter
 print(d)
 
 #islower()
-e=msg.islower()
+e=msg.islower()  #it gives boolean output  and it gives all lower (small letter) then it true otherwise it false
 print(e)
 
 msg1 = "234r5767"
@@ -32,7 +32,7 @@ print(f)
 msg3 = "Aaa Babb"
 print(msg3)
 
-g=msg3.isdigit() #all letters will alpha 
+g=msg3.isdigit() #all letters will number 
 print(g)
 
 #isalpha
